@@ -1,7 +1,5 @@
-
 echo "What is the meaning of life?"
 read meaning
-
 
 if [ "$meaning" -eq 42 ]; then
    echo "Yes!, That is the meaning of life!"
@@ -18,7 +16,7 @@ fi
 hour=$(date +%H)
 
 if [ "$hour" -lt 12 ]; then
-  echo "It is morning"
+  echo "Good morning"
 else
-  echo "It is not morning"
+  echo "Good afternoon or evening"
 fi
